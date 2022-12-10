@@ -2,12 +2,8 @@
 
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -15,7 +11,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   display: flex;
   position: relative;
   background-color:  #f2f2f2;
@@ -45,19 +40,17 @@
   color: #2f80ed;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
+  background-color: #2f80ed;
   width: 568px;
+  height: 568px;
+  z-index: 0;
+  position: absolute;
+  top: 64px;
+  right: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
 .logo {
   width: 228px;
   height: 32px;
@@ -81,16 +74,6 @@
   width: 765px;
   height: 608px;
   z-index: 1;
-}
-
-.header__square-pic {
-  background-color: #2f80ed;
-  width: 568px;
-  height: 568px;
-  z-index: 0;
-  position: absolute;
-  top: 64px;
-  right: 0;
 }
 
 .description {
@@ -228,7 +211,6 @@
 .feynman__subtitle {
   text-align: center;
   margin: 0;
-
 }
 
 .feynman__link {
@@ -260,16 +242,18 @@
   color: white;
 }
 
-
-
 .table_theme_dark {
   color: white;
 }
 .table_margin-bottom_s {
   margin-bottom: 90px;
 }
+
 .table__cell_theme_dark {
+  width: 200px;
   color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .table__cell_margin-top_large {
@@ -317,7 +301,6 @@
   line-height: 30px;
   font-weight: normal;
 }
-
 
 .footer__column_content_copyright {
   flex-basis: 711px;
