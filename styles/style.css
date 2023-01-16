@@ -10,6 +10,7 @@
   min-height: 600px;
   max-height: 756px;
   display: flex;
+  align-items: center;
   position: relative;
   background-color: #f2f2f2;
   margin: 0;
@@ -20,7 +21,9 @@
   font-size: 102px;
   font-weight: 600;
   width: 730px;
-  margin: auto 0 auto 64px;
+  margin: 0;
+  margin-left: 64px;
+  /* margin: auto 0 auto 64px; */
   z-index: 11;
 }
 
@@ -28,7 +31,8 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   z-index: 10;
   line-height: 25px;
   font-size: 18px;
@@ -116,7 +120,6 @@
 }
 
 .two-columns__span-accent {
-  font-weight: bold;
   font-weight: 600;
 }
 
