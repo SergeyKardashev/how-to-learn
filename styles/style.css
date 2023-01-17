@@ -2,8 +2,11 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+  /* плагин prettier автоматом меняет идинарые кавычки на двойные */
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
+
+/* Header */
 
 .header {
   height: 100vh;
@@ -63,7 +66,7 @@
 
 .logo_place_header {
   background-position: center;
-  background-image: url("../images/logo_place_header.svg");
+  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   left: 64px;
@@ -78,6 +81,8 @@
   height: 608px;
   z-index: 1;
 }
+
+/* description */
 
 .description {
   padding-top: 100px;
@@ -121,6 +126,8 @@
 .two-columns__span-accent {
   font-weight: 600;
 }
+
+/* digits */
 
 .digits {
   display: flex;
@@ -189,9 +196,11 @@
   margin-bottom: 0;
 }
 
+/* feynman */
+
 .feynman {
   background-color: #f2f2f2;
-  background-image: url("../images/feynman.png");
+  background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom 0px left 0px;
   background-size: 867px;
@@ -225,6 +234,8 @@
   text-decoration: none;
   color: #2f80ed;
 }
+
+/* kaufman */
 
 .kaufman {
   display: flex;
@@ -275,6 +286,8 @@
   color: white;
 }
 
+/* footer */
+
 .footer {
   color: #ffffff;
   background-color: #1f1f1f;
@@ -312,7 +325,7 @@
 }
 
 .logo_place_footer {
-  background-image: url("../images/logo_place_footer.svg");
+  background-image: url(../images/logo_place_footer.svg);
 }
 
 .footer__author {
